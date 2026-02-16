@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { Video, Globe, Smartphone, Workflow, Brain, Check } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { services } from '../data/services';
+import type { Service } from '../types';
 
-const iconMap: { [key: string]: any } = {
+const iconMap: { [key: string]: LucideIcon } = {
   Video,
   Globe,
   Smartphone,
@@ -10,7 +12,7 @@ const iconMap: { [key: string]: any } = {
   Brain
 };
 
-const ServiceCard = ({ service, index }: { service: any; index: number }) => {
+const ServiceCard = ({ service, index }: { service: Service; index: number }) => {
   const Icon = iconMap[service.icon];
 
   return (

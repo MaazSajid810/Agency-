@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# Agency - Professional Digital Services Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance website showcasing professional digital services for global businesses. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## 🚀 Services Offered
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **YouTube Video Editing** - Professional video editing for content creators
+- **Website Development** - Custom websites with modern frameworks (React, Next.js)
+- **Mobile App Development** - Native and cross-platform mobile applications
+- **n8n Workflow Automation** - Intelligent automation solutions
+- **Agentic AI Solutions** - Advanced AI agents using LLMs and RAG
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Modern glassmorphism UI design
+- 📱 Fully responsive mobile-first design
+- 🎭 Smooth animations with Framer Motion
+- 💰 Real-time pricing calculator
+- 📧 Direct contact integration (WhatsApp/Email)
+- 🔍 SEO optimized with meta tags
+- ⚡ High-performance Vite build
+- 🎯 TypeScript for type safety
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS v3
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Installation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# Install dependencies
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The development server runs on `http://localhost:5173/`
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📝 Project Structure
+
 ```
+src/
+├── components/       # React components
+│   ├── Hero.tsx
+│   ├── Services.tsx
+│   ├── PricingCalculator.tsx
+│   ├── Contact.tsx
+│   ├── Navbar.tsx
+│   └── Footer.tsx
+├── data/            # Service data
+│   └── services.ts
+├── types/           # TypeScript types
+│   └── index.ts
+├── App.tsx          # Main app component
+└── index.css        # Global styles
+```
+
+## 🎯 Key Components
+
+- **Hero Section**: Eye-catching landing with call-to-action buttons
+- **Services Portfolio**: Interactive cards showcasing all services
+- **Pricing Calculator**: Real-time price calculation with tier selection
+- **Contact Section**: Multiple contact methods with WhatsApp/Email integration
+- **Responsive Navigation**: Fixed navbar with smooth scrolling
+
+## 📞 Contact
+
+- WhatsApp: +92 300 6790810
+- Email: contact@agency.com
+
+## 📄 License
+
+Built with ❤️ for global businesses

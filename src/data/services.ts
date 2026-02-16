@@ -102,9 +102,3 @@ export const services: Service[] = [
     deliveryTime: '1-6 weeks'
   }
 ];
-
-export const pricingTiers = [
-  { name: 'Basic', multiplier: 1 },
-  { name: 'Standard', multiplier: 1 },
-  { name: 'Premium', multiplier: 1 }
-];

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Film, Zap, Sparkles, Palette, ArrowRight, Mail, MessageCircle } from 'lucide-react'
+import { Film, Zap, Sparkles, ArrowRight, Mail, MessageCircle } from 'lucide-react'
 import { useState } from 'react'
 
 const fadeInUp = {

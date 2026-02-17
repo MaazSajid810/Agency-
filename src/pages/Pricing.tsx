@@ -65,6 +65,9 @@ export default function Pricing() {
     { service: '3D Logo Animation', price: '$100–$200' },
     { service: '3D Product Video', price: '$200–$500' },
     { service: 'Motion Graphics (30s)', price: '$50–$100' },
+    { service: 'Portfolio - Basic', price: '$15' },
+    { service: 'Portfolio - Professional', price: '$30' },
+    { service: 'LMS (Learning Management System)', price: '$500+ (depends on client)' },
   ]
 
   return (

@@ -25,16 +25,18 @@ export default function Home() {
   ]
 
   const services = [
-    'Faceless YouTube Editing',
-    'YouTube Automation',
-    'Shorts Editing',
-    '3D Logo Animation',
-    '3D Product Animation',
-    'Motion Graphics',
-    'Website Development',
-    'App Development',
-    'n8n Automation',
-    'Agentic AI Solutions',
+    { name: 'Faceless YouTube Editing', id: 'faceless-youtube-editing' },
+    { name: 'YouTube Automation', id: 'youtube-automation' },
+    { name: 'Shorts Editing', id: 'shorts-editing' },
+    { name: '3D Logo Animation', id: '3d-logo-animation' },
+    { name: '3D Product Animation', id: '3d-product-animation' },
+    { name: 'Website Development', id: 'website-development' },
+    { name: 'App Development', id: 'app-development' },
+    { name: 'n8n Automation', id: 'n8n-automation' },
+    { name: 'Agentic AI Solutions', id: 'agentic-ai' },
+    { name: 'Brand Videos & Product Shoots', id: 'brand-videos' },
+    { name: 'Portfolio Development', id: 'portfolio-development' },
+    { name: 'LMS (Learning Management System)', id: 'lms' },
   ]
 
   const steps = [
@@ -178,7 +180,7 @@ export default function Home() {
             {services.map((service, i) => (
               <Link
                 key={i}
-                to={`/service/${service.replace(/\s+/g, '-').toLowerCase()}`}
+                to={`/service/${service.id}`}
                 className="block"
               >
                 <motion.div
@@ -186,7 +188,7 @@ export default function Home() {
                   className="glass p-8 rounded-xl hover:border-accent-orange/50 cursor-pointer smooth-transition group h-full"
                 >
                   <Play className="w-8 h-8 text-accent-orange mb-4 group-hover:scale-110 smooth-transition" />
-                  <h3 className="text-xl font-semibold group-hover:gradient-text smooth-transition">{service}</h3>
+                  <h3 className="text-xl font-semibold group-hover:gradient-text smooth-transition">{service.name}</h3>
                   <p className="text-gray-400 text-sm mt-2">Click to view portfolio & details</p>
                 </motion.div>
               </Link>

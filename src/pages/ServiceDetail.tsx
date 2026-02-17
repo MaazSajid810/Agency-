@@ -266,6 +266,199 @@ export default function ServiceDetail() {
         },
       ]
     },
+    'brand-videos': {
+      title: 'Brand Videos & Product Shoots',
+      tagline: 'Professional Marketing Videos for Your Brand',
+      description: 'Elevate your brand with professional product videos and commercial shoots. From concept to delivery, we handle everything with cinematic quality and attention to detail.',
+      icon: '🎬',
+      imageUrl: '/images/brand-videos-showcase.jpg',
+      features: [
+        'Professional product video shooting',
+        'Commercial advertising videos',
+        'Brand storytelling and promotional content',
+        'Professional cinematography and equipment',
+        'On-location and studio shoots',
+        'Multi-camera professional setup',
+        'Post-production editing and color grading',
+        'Music and sound design integration',
+        'Special effects and motion graphics',
+        'Delivery in multiple formats (4K, Full HD)',
+      ],
+      pricing: '$800 - $3,000 per shoot',
+      portfolioItems: [
+        {
+          title: 'Product Launch Video',
+          desc: 'Professional product video for e-commerce brand featuring multi-angle shots and transitions',
+          result: '250% increase in product click-through rate',
+          image: '🎥',
+          videoUrl: '/videos/product-launch.mp4'
+        },
+        {
+          title: 'Brand Story Commercial',
+          desc: 'Cinematic brand storytelling video showcasing company mission and values',
+          result: 'Viral social media campaign with 500K+ views',
+          image: '📹',
+          imageUrl: '/images/brand-story.jpg'
+        },
+        {
+          title: 'Real Estate Video Tour',
+          desc: 'Professional property showcase with drone footage and 4K quality',
+          result: '45% faster property sales',
+          image: '🏠',
+          videoUrl: '/videos/real-estate.mp4'
+        },
+        {
+          title: 'Food & Beverage Commercial',
+          desc: 'Appetizing product photography and videography for F&B business',
+          result: 'Increased foot traffic by 35%',
+          image: '🍔',
+          imageUrl: '/images/food-commercial.jpg'
+        },
+      ],
+      testimonials: [
+        {
+          name: 'Sarah Khan',
+          role: 'E-Commerce Business Owner',
+          quote: 'The product videos completely transformed our online sales. Professional quality, affordable price.',
+          rating: 5
+        },
+        {
+          name: 'Ahmed Hassan',
+          role: 'Marketing Director',
+          quote: 'Best investment we made this year. Their team made the entire shoot process smooth and stress-free.',
+          rating: 5
+        },
+      ]
+    },
+    'portfolio-development': {
+      title: 'Portfolio Development',
+      tagline: 'Showcase Your Talent & Land More Clients',
+      description: 'Stand out with a professionally designed portfolio website. Perfect for freelancers, designers, photographers, and creative professionals showcasing their work.',
+      icon: '💼',
+      imageUrl: '/images/portfolio-showcase.jpg',
+      features: [
+        'Professional portfolio website design',
+        'Responsive and modern layouts',
+        'Project showcase galleries with filters',
+        'Interactive portfolio pieces',
+        'SEO-optimized portfolio structure',
+        'Fast loading and performance optimization',
+        'Custom domain setup',
+        'Portfolio maintenance and updates',
+        'Contact form integration',
+        'Social media links integration',
+      ],
+      pricing: '$15 - $30 (varies by complexity)',
+      portfolioItems: [
+        {
+          title: 'Designer Portfolio - Basic',
+          desc: 'Clean, modern portfolio for graphic designers with project galleries',
+          result: '3x enquiries, client retention improved',
+          image: '🎨',
+          imageUrl: '/images/designer-portfolio.jpg'
+        },
+        {
+          title: 'Photographer Portfolio - Professional',
+          desc: 'Premium photography portfolio with advanced galleries and filters',
+          result: '50% more bookings within 3 months',
+          image: '📸',
+          imageUrl: '/images/photographer-portfolio.jpg'
+        },
+        {
+          title: 'Developer Portfolio',
+          desc: 'Tech portfolio for web developers showcasing projects and skills',
+          result: 'Got 5 high-value contract offers',
+          image: '💻',
+          videoUrl: '/videos/dev-portfolio.mp4'
+        },
+        {
+          title: 'Freelancer Showcase',
+          desc: 'Multi-service freelancer portfolio with testimonials and case studies',
+          result: 'Increased rates by 40%, better clients',
+          image: '⭐',
+          imageUrl: '/images/freelancer-portfolio.jpg'
+        },
+      ],
+      testimonials: [
+        {
+          name: 'Maria Garcia',
+          role: 'Freelance Designer',
+          quote: 'My new portfolio looks amazing! I\'ve received way more client inquiries since launching it.',
+          rating: 5
+        },
+        {
+          name: 'James Wilson',
+          role: 'Web Developer',
+          quote: 'Professional portfolio helped me land my dream job. Highly recommended!',
+          rating: 5
+        },
+      ]
+    },
+    'lms': {
+      title: 'LMS (Learning Management System)',
+      tagline: 'Complete Digital Learning Platform for Education',
+      description: 'Empower your university, college, or educational institution with a complete Learning Management System. Everything you need for online education in one platform.',
+      icon: '📚',
+      imageUrl: '/images/lms-showcase.jpg',
+      features: [
+        'Complete learning platform for universities, colleges & students',
+        'Course management and organization',
+        'Student enrollment and progress tracking',
+        'Interactive quizzes and assessments',
+        'Assignment submission and grading',
+        'Discussion forums and collaboration tools',
+        'Video content hosting and streaming',
+        'Certificate generation and digital badges',
+        'Mobile-responsive learning interface',
+        'Advanced analytics and reporting',
+        'Customizable branding and themes',
+      ],
+      pricing: '$500+ (depends on client requirements)',
+      portfolioItems: [
+        {
+          title: 'University LMS Implementation',
+          desc: 'Complete LMS setup for University with 1000+ students across 20+ courses',
+          result: '95% student satisfaction, 45% improved engagement',
+          image: '🎓',
+          imageUrl: '/images/university-lms.jpg'
+        },
+        {
+          title: 'Online Coaching Platform',
+          desc: 'LMS for online coaching institute with live classes and recorded content',
+          result: 'Scaled to 500+ students, 300% revenue growth',
+          image: '👨‍🏫',
+          videoUrl: '/videos/coaching-lms.mp4'
+        },
+        {
+          title: 'Corporate Training Platform',
+          desc: 'Employee training LMS with compliance tracking and certifications',
+          result: '60% more employees completed training programs',
+          image: '💼',
+          imageUrl: '/images/corporate-training.jpg'
+        },
+        {
+          title: 'Skill Development Academy',
+          desc: 'Complete LMS for online skill development courses and certifications',
+          result: '10,000+ students enrolled, $200K+ monthly revenue',
+          image: '🚀',
+          imageUrl: '/images/skill-academy.jpg'
+        },
+      ],
+      testimonials: [
+        {
+          name: 'Dr. Ahmed Ali',
+          role: 'University Director',
+          quote: 'The LMS transformed our online teaching. Students love the interface, and administration is seamless.',
+          rating: 5
+        },
+        {
+          name: 'Fatima Khan',
+          role: 'Online Academy Owner',
+          quote: 'Best decision for our business. LMS helped us scale from 100 to 500+ students effortlessly.',
+          rating: 5
+        },
+      ]
+    },
   }
 
   const service = services[serviceId || '']
@@ -362,33 +555,8 @@ export default function ServiceDetail() {
                 variants={fadeInUp}
                 className="glass p-8 rounded-xl hover:border-accent-blue/50 smooth-transition overflow-hidden"
               >
-                {/* Video or Image */}
-                <div className="w-full h-48 bg-black/40 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group">
-                  {item.videoUrl ? (
-                    <video
-                      src={item.videoUrl}
-                      className="w-full h-full object-cover group-hover:scale-105 smooth-transition"
-                      controls
-                      controlsList="nodownload"
-                      poster={item.image}
-                    />
-                  ) : item.imageUrl ? (
-                    <img
-                      src={item.imageUrl}
-                      alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 smooth-transition"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).style.display = 'none'
-                      }}
-                    />
-                  ) : null}
-                  {!item.videoUrl && !item.imageUrl && (
-                    <div className="text-5xl opacity-50">{item.image}</div>
-                  )}
-                </div>
-
                 <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
-                <p className="text-gray-400 mb-4">{item.desc}</p>
+                <p className="text-gray-400 mb-6">{item.desc}</p>
                 <div className="bg-accent-blue/10 border border-accent-blue/20 p-4 rounded-lg">
                   <p className="text-accent-blue font-semibold">✓ {item.result}</p>
                 </div>

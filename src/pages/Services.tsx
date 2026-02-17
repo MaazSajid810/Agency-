@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Film, Zap, Sparkles, ArrowRight, Mail, MessageCircle } from 'lucide-react'
+import { Film, Zap, Sparkles, ArrowRight, Mail, MessageCircle, Briefcase, BookOpen } from 'lucide-react'
 import { useState } from 'react'
 
 const fadeInUp = {
@@ -131,6 +131,59 @@ export default function Services() {
         'Future-ready AI transformation',
       ],
       highlight: 'Intelligent AI agents that work for your business 24/7',
+    },
+    {
+      id: 10,
+      icon: Briefcase,
+      title: 'Portfolio Development',
+      features: [
+        'Professional portfolio website design',
+        'Responsive and modern layouts',
+        'Project showcase galleries',
+        'Interactive portfolio pieces',
+        'SEO-optimized portfolio structure',
+        'Fast loading and performance optimization',
+        'Custom domain setup',
+        'Portfolio maintenance and updates',
+      ],
+      highlight: 'Showcase your work and land more clients with a stunning portfolio',
+    },
+    {
+      id: 11,
+      icon: BookOpen,
+      title: 'LMS (Learning Management System)',
+      features: [
+        'Complete learning platform for universities, colleges & students',
+        'Course management and organization',
+        'Student enrollment and progress tracking',
+        'Interactive quizzes and assessments',
+        'Assignment submission and grading',
+        'Discussion forums and collaboration tools',
+        'Video content hosting and streaming',
+        'Certificate generation and digital badges',
+        'Mobile-responsive learning interface',
+        'Advanced analytics and reporting',
+        'Customizable branding and themes',
+      ],
+      highlight: 'Complete digital learning platform for educational institutions',
+    },
+    {
+      id: 12,
+      icon: Film,
+      title: 'Brand Videos & Product Shoots',
+      features: [
+        'Professional product video shooting',
+        'Commercial advertising videos',
+        'Brand storytelling and promotional content',
+        'Professional cinematography and equipment',
+        'On-location and studio shoots',
+        'Multi-camera professional setup',
+        'Post-production editing and color grading',
+        'Music and sound design integration',
+        'Special effects and motion graphics',
+        'Delivery in multiple formats (4K, Full HD)',
+      ],
+      highlight: 'Elevate your brand with professional marketing videos and product shoots',
     },  ]
 
   return (
